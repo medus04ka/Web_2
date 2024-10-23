@@ -519,4 +519,9 @@
             <remote-destination host="${jboss.mail.server.host:localhost}" port="${jboss.mail.server.port:25}"/>
         </outbound-socket-binding>
     </socket-binding-group>
+    <deployments>
+        <deployment name="web.war" runtime-name="web.war">
+            <fs-exploded path="C:\Users\Windows 11\IdeaProjects\Webik2\build\libs\exploded\web.war"/>
+        </deployment>
+    </deployments>
 </server>

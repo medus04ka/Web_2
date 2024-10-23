@@ -2,7 +2,7 @@ package org.example.util;
 
 public class RestrictionsHelper {
 
-    public  static <T extends Number> void  isGreaterOrLesser(T g, T l, T value) throws Exception {
+    public static <T extends Number> void isGreaterOrLesser(T g, T l, T value) throws Exception {
         if (value == null) {
             throw new Exception(value + "is Null");
         }

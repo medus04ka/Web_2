@@ -12,7 +12,7 @@
     &nbsp;&nbsp;
     Height <input type="text" size="5" name="height"/>
     &nbsp;&nbsp;
-    <input type="submit" value="Calculate" />
+    <input type="submit" value="Calculate"/>
 </form>
 </body>
 </html>

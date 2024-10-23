@@ -1,6 +1,6 @@
 package org.example.response;
 
-public  class JsonResponse {
+public class JsonResponse {
     private String data;
     private String error;
     private String executeTime;

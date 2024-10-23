@@ -66,15 +66,22 @@
                                 <text fill="black" x="290" y="140">X</text>
 
                                 <!-- Прямоугольники и полигоны -->
-                                <rect x="90" y="50" width="120" height="25" fill="#0000FF" fill-opacity="0.5" stroke="#0000FF"></rect>
-                                <rect x="90" y="180" width="120" height="25" fill="#0000FF" fill-opacity="0.5" stroke="#0000FF"></rect>
-                                <rect x="90" y="115" width="120" height="25" fill="#0000FF" fill-opacity="0.5" stroke="#0000FF"></rect>
+                                <rect x="90" y="50" width="120" height="25" fill="#0000FF" fill-opacity="0.5"
+                                      stroke="#0000FF"></rect>
+                                <rect x="90" y="180" width="120" height="25" fill="#0000FF" fill-opacity="0.5"
+                                      stroke="#0000FF"></rect>
+                                <rect x="90" y="115" width="120" height="25" fill="#0000FF" fill-opacity="0.5"
+                                      stroke="#0000FF"></rect>
 
-                                <polygon fill="#0000FF" fill-opacity="1" points="185,75 90,180 115,180 210,75" stroke="#0000FF"></polygon>
-                                <polygon fill="#0000FF" fill-opacity="0.5" points="90,115 115,115 155,75 130,75" stroke="#0000FF"></polygon>
-                                <polygon fill="#0000FF" fill-opacity="0.5" points="210,140 185,140 150,180 175,180" stroke="#0000FF"></polygon>
+                                <polygon fill="#0000FF" fill-opacity="1" points="185,75 90,180 115,180 210,75"
+                                         stroke="#0000FF"></polygon>
+                                <polygon fill="#0000FF" fill-opacity="0.5" points="90,115 115,115 155,75 130,75"
+                                         stroke="#0000FF"></polygon>
+                                <polygon fill="#0000FF" fill-opacity="0.5" points="210,140 185,140 150,180 175,180"
+                                         stroke="#0000FF"></polygon>
 
-                                <line stroke="white" stroke-width="3" stroke-opacity="0.7" x1="211" x2="116" y1="75" y2="180"></line>
+                                <line stroke="white" stroke-width="3" stroke-opacity="0.7" x1="211" x2="116" y1="75"
+                                      y2="180"></line>
                                 <circle cx="150" cy="150" id="target-dot" r="0" stroke="white" fill="white"></circle>
                             </svg>
                         </div>
@@ -100,7 +107,7 @@
                     </tr>
 
                     <tbody id="results">
-                        <jsp:include page="/jsp/results.jsp" />
+                    <jsp:include page="/jsp/results.jsp"/>
                     </tbody>
                 </table>
             </div>
@@ -121,7 +128,8 @@
                             <label for="x-text-input">X:</label>
                         </td>
                         <td class="input-grid-value">
-                            <input id="x-text-input" type="text" name="xval" maxlength="10" autocomplete="off" placeholder="текстиком циферки напишите от -3 до 3...">
+                            <input id="x-text-input" type="text" name="xval" maxlength="10" autocomplete="off"
+                                   placeholder="текстиком циферки напишите от -3 до 3...">
                             <div id="notification" class="notification" style="display: none;"></div>
                         </td>
                     </tr>

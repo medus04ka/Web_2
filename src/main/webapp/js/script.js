@@ -27,7 +27,7 @@ function drawPoint(x, y, r) {
     svg.appendChild(newDot);
 }
 
-document.querySelector('svg').addEventListener('click', function(event) {
+document.querySelector('svg').addEventListener('click', function (event) {
     const svg = this;
     const point = svg.createSVGPoint();
 
@@ -45,7 +45,7 @@ document.querySelector('svg').addEventListener('click', function(event) {
     const graphY = ((150 - cursorPoint.y) / 100) * r;
 
     drawPoint(graphX, graphY, r);
-    points.push({ x: graphX, y: graphY, r: r });
+    points.push({x: graphX, y: graphY, r: r});
     submitData(graphX, graphY, r);
 });
 
@@ -57,7 +57,7 @@ function submitData(x, y, r) {
 
     fetch(url, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
     })
         .then(response => response.json())
         .then(json => {
@@ -77,7 +77,7 @@ function init() {
     }
 }
 
-document.getElementById("input-form").addEventListener("submit", function(event) {
+document.getElementById("input-form").addEventListener("submit", function (event) {
     event.preventDefault();
     const xValue = document.getElementById('x-text-input').value;
     const yValue = document.querySelector('input[name="yval"]:checked')?.value;
@@ -100,7 +100,7 @@ document.getElementById("input-form").addEventListener("submit", function(event)
     submitData(x, y, r);
 });
 
-window.onload = function() {
+window.onload = function () {
     init();
 };
 

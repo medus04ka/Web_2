@@ -22,7 +22,7 @@ body {
 
 #main-grid {
     width: 95%;
-    margin:auto;
+    margin: auto;
     border-spacing: 1em;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .content-plate {
     padding: 0 0 20px;
-    vertical-align:top;
+    vertical-align: top;
     background-color: white;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -61,7 +61,6 @@ body {
     padding: 15px;
     border-radius: 5px;
 }
-
 
 
 .plate-top {
@@ -89,7 +88,7 @@ body {
 
 #input-grid {
     width: 95%;
-    margin:auto;
+    margin: auto;
     text-align: center;
 }
 
@@ -143,7 +142,7 @@ body {
 }
 
 .buttons {
-    margin-top:3%
+    margin-top: 3%
 }
 
 .buttons::before {
